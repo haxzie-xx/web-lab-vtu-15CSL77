@@ -1,0 +1,33 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #c0c0c0;
+}
+
+table thead tr th,
+table tbody tr td {
+    padding: 10px;
+    border: 1px solid #c0c0c0;
+}
+
+h1 {
+    color: #ff5500;
+}
+
+hr {
+    height: 2px;
+    margin: 10px;
+    width: 100%;
+}
